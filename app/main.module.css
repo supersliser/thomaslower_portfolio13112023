@@ -2,11 +2,13 @@
     width: 100%;
     height: 100%;
     margin: 0%;
-    padding: 5%;
+    padding: 0%;
     border-width: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    background: radial-gradient(circle at center 120%, rgb(221, 180, 255), rgb(255, 255, 255));
+}
+.backColourOne {
+    background: radial-gradient(circle at center, rgba(197, 5, 255, 0.5), rgba(255, 255, 255, 0));
 }

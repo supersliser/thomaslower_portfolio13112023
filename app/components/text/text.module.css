@@ -1,0 +1,8 @@
+@import '@fontsource-variable/comfortaa';
+.default {
+    font-family: 'Comfortaa Variable', sans-serif;
+    font-weight: 500;
+    color: rgb(88, 63, 32);
+    padding: 1rem;
+    position: static;
+}
