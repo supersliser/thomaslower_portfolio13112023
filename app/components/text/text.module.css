@@ -1,8 +1,14 @@
 @import '@fontsource-variable/comfortaa';
+@import '@fontsource/syncopate';
 .default {
     font-family: 'Comfortaa Variable', sans-serif;
     font-weight: 500;
-    color: rgb(88, 63, 32);
     padding: 1rem;
+    font-size: 1rem;
     position: static;
+}
+.title {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
 }

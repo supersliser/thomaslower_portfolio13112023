@@ -1,4 +1,10 @@
-.colour {
+.Defaultcolour {
     background-color: rgba(199, 47, 245, 0.3);
     border-radius: 5px;
+}
+
+.BlockColour {
+    margin-top: 5rem;
+    border-color: aqua;
+    width: 100%;
 }
