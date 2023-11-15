@@ -1,4 +1,4 @@
-import { createClient } from "@supabase/supabase-js";
+import { createClient } from '@/utils/supabase/server';
 import { cookies } from 'next/headers';
 
 export default class Project {
