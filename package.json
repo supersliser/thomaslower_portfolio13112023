@@ -6,6 +6,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fontsource-variable/comfortaa": "^5.0.17",
+    "@fontsource/syncopate": "^5.0.17",
     "@supabase/ssr": "latest",
     "@supabase/supabase-js": "latest",
     "autoprefixer": "10.4.15",
