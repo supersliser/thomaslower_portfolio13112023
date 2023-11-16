@@ -2,6 +2,7 @@ import { createClient } from '@/utils/supabase/server';
 import { cookies } from 'next/headers';
 
 export default class Project {
+    public id: number = 0
     public name: string = "DEFAULT_NAME";
     public subTitle: string = "DEFAULT_SUBTITLE";
     public description: string = "DEFAULT_DESCRIPTION";
@@ -18,6 +19,7 @@ export default class Project {
         .select()
         .single();
 
+        this.id = project.data.id
         this.name = project.data.name
         this.subTitle = project.data.subtitle
         this.description = project.data.description
